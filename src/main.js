@@ -13,6 +13,7 @@ import Third from '@/views/Third'
 import Fourth from '@/views/Fourth'
 import Fifth from '@/views/Fifth'
 import HelloWorld from '@/components/HelloWorld'
+import HealthPass from '@/views/HealthPass'
 
 const routes = [
   { 
@@ -47,7 +48,10 @@ const routes = [
   ,{
       path: '/', 
       component: HelloWorld 
-  }
+  },{
+    path: '/healthpass', 
+    component: HealthPass 
+}
 ]
 
 const router = new VueRouter({

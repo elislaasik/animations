@@ -29,6 +29,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+
  
 }
 span{
@@ -41,6 +42,9 @@ nav{
   z-index: 9999;
   width: 100%;
   height: 30px;
-  background: white;
+  background: #f5f7fa;
+}
+body{
+  background: #f5f7fa
 }
 </style>
